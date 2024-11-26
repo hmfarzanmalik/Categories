@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Circle Example</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #525f6d;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 3px solid #ddd;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.main-container h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="main-container">
+    <div class="image-container">
+      <img src="three.png" alt="">
+    </div>
+    <h1>Zinger recipes</h1>
+    <div class="image-container">
+      <img src="Pizza.png" alt="">
+    </div>
+    <h1>Pizza recipes</h1>
+    <div class="image-container">
+      <img src="three.png" alt="">
+    </div>
+    <h1>zinger recipes</h1>
+    <div class="image-container">
+      <img src="nuggest.png" alt="">
+    </div>
+    <h1>Nuggest recipes</h1>
+    <div class="image-container">
+      <img src="samosa.png" alt="">
+    </div>
+    <h1>Samosa recipes</h1>
+    <div class="image-container">
+      <img src="One.png" alt="">
+    </div>
+    <h1>Beaker recipes</h1>
+    <div class="image-container">
+      <img src="noodles.png" alt="">
+    </div>
+    <h1>Noodles recipes</h1>
+    <div class="image-container">
+      <img src="two.jpg" alt="">
+    </div>
+    <h1>Beaker recipes</h1>
+  </div>
+
+</body>
+</html>
+
+        
